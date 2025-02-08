@@ -1,0 +1,58 @@
+/* src/assets/styles/global.css */
+
+/* Load Ericsson Hilda font with .woff2 files */
+/* @font-face {
+  font-family: 'Ericsson Hilda';
+  src: url('/assets/fonts/EricssonHilda-Regular.woff2') format('woff2');
+  font-weight: 400; Regular
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ericsson Hilda';
+  src: url('/assets/fonts/EricssonHilda-Bold.woff2') format('woff2');
+  font-weight: 700; Bold
+  font-style: normal;
+}
+ */
+ 
+/* Apply Ericsson Hilda as the default font for the entire website */
+body {
+/*   font-family: 'Ericsson Hilda', sans-serif; */
+  font-weight: normal; /* Default weight: Regular */
+}
+
+:root {
+  --bs-primary: #0058a3 !important;
+  --bs-secondary: #122c44 !important;
+  --bs-success: #008f4c !important;
+  --bs-info: #00a5df !important;
+  --bs-warning: #ffb400 !important;
+  --bs-danger: #d81b60 !important;
+  --bs-light: #f2f4f7 !important;
+  --bs-dark: #1c1c1c !important;
+}
+
+.btn-primary {
+  background-color: #0058a3 !important;
+  border-color: #0058a3 !important;
+}
+
+.btn-secondary {
+  background-color: #122c44 !important;
+  border-color: #122c44 !important;
+}
+
+.bg-primary {
+  background-color: #0058a3 !important;
+}
+
+.text-primary {
+  color: #0058a3 !important;
+}
+
+
+
+/* COME BACK LATER TO FIX THE FONT ISSUE */
+
+
